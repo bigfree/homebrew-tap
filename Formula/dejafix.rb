@@ -1,25 +1,25 @@
 class Dejafix < Formula
   desc "Coding agent memory: local-first memory and judgment for AI coding agents."
   homepage "https://github.com/bigfree/dejafix"
-  version "1.0.0-rc.2"
+  version "1.0.0-rc.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/bigfree/dejafix/releases/download/v1.0.0-rc.2/dejafix-aarch64-apple-darwin.tar.xz"
-      sha256 "ae418387969c8bcb324d8c4afa0978ffe4869540148fc7bdeb7041d0c8eb66fc"
+      url "https://github.com/bigfree/dejafix/releases/download/v1.0.0-rc.3/dejafix-aarch64-apple-darwin.tar.xz"
+      sha256 "88f0c0bf9649df192165795a7c151cc8688ef9085f45cce1bbbcf52dac4e5fc5"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/bigfree/dejafix/releases/download/v1.0.0-rc.2/dejafix-x86_64-apple-darwin.tar.xz"
-      sha256 "399aa6d703a8d574486b8c98ee58f0c66380ea70020be9197a6403b1a2cb925c"
+      url "https://github.com/bigfree/dejafix/releases/download/v1.0.0-rc.3/dejafix-x86_64-apple-darwin.tar.xz"
+      sha256 "7414bd3ea371fb728a127102ab4cdea68d83d79d9ad2b0fc33d0acc4ba01ac29"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/bigfree/dejafix/releases/download/v1.0.0-rc.2/dejafix-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "a9f7ce66f2cb07fff3a3973a1fd92e4f63ce242bab764c07d99a06599bf82f58"
+      url "https://github.com/bigfree/dejafix/releases/download/v1.0.0-rc.3/dejafix-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "421583d1dc97cfcd51c0ab265cc41f830b87a06a008eeeb5fa5b0b9f7badd808"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/bigfree/dejafix/releases/download/v1.0.0-rc.2/dejafix-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "d7ac0112eb626fc769ecf497b4e1914e53cca4ab0aab3d0fbbb141b75c053c79"
+      url "https://github.com/bigfree/dejafix/releases/download/v1.0.0-rc.3/dejafix-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "b2699e0876419b04bb6d88261899f5d429b66e37129a6f81a223b43fb92831b3"
     end
   end
   license "MIT"
